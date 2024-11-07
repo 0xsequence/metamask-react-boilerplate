@@ -1,5 +1,5 @@
 {
-  "name": "kit-embedded-wallet-react-boilerplate",
+  "name": "metamask-react-boilerplate",
   "private": false,
   "version": "0.0.0",
   "type": "module",
@@ -12,12 +12,8 @@
     "postinstall": "(cp -n .env.example .env) || echo already exists"
   },
   "dependencies": {
-    "0xsequence": "2.0.11",
     "@0xsequence/design-system": "^1.7.8",
-    "@0xsequence/indexer": "^2.0.11",
-    "@0xsequence/kit": "^4.3.0",
-    "@0xsequence/network": "^2.0.11",
-    "@tanstack/react-query": "^5.59.0",
+    "@metamask/sdk-react": "^0.30.2",
     "ethers": "6.13.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

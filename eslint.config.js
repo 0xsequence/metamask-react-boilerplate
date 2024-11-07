@@ -8,7 +8,7 @@ import reactHooks from "eslint-plugin-react-hooks";
 
 export default [
   {
-    ignores: ["node_modules/", "dist/", "pnpm-lock.yaml"],
+    ignores: ["node_modules/", "dist/", ".wrangler/", "pnpm-lock.yaml"],
   },
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
@@ -18,6 +18,9 @@ export default [
     },
     rules: {
       "react-refresh/only-export-components": "warn",
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": "off",
+      ...reactHooks.configs.recommended.rules,
     },
     settings: {
       react: {

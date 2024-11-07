@@ -1,6 +1,6 @@
-# Sequence Kit Embedded Wallet React Starter Boilerplate
+# Metamask React Starter Boilerplate
 
-Starter Sequence Embedded Wallet boilerplate that uses [Sequence Kit](https://github.com/0xsequence/kit) with React.
+Starter boilerplate that uses [Metamask](https://metamask.io) with React.
 
 ## Quickstart
 
@@ -18,4 +18,4 @@ pnpm install && pnpm dev
 
 The app will start on `localhost:4444`
 
-To provide your own keys from [Sequence Builder](https://sequence.build/), simply edit the `.env` file accordingly.
+To provide your own keys from [Infura](https://app.infura.io/), simply edit the `.env` file accordingly.
